@@ -8,3 +8,4 @@ groq
 scikit-learn
 scipy
 ta
+python-dotenv
