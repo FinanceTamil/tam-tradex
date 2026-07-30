@@ -2,6 +2,7 @@ from datetime import datetime
 from typing import Any
 
 import plotly.graph_objects as go
+import plotly.io as pio
 import streamlit as st
 
 
@@ -91,8 +92,8 @@ def apply_plotly_theme() -> None:
         },
     )
 
-    go.templates["tam_tradex"] = template
-    go.templates.default = "tam_tradex"
+    pio.templates["tam_tradex"] = template
+    pio.templates.default = "tam_tradex"
 
 
 # ==================================================
